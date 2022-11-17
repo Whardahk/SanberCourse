@@ -11,3 +11,9 @@ console.log(c);
 
 var x = "10" + "add";
 console.log(x);
+
+let price = 15000;
+console.log(price);
+
+stock = 12;
+console.log(stock);
