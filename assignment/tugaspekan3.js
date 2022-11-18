@@ -18,6 +18,8 @@ console.log(productBin);
 
 var total_quantity = 0;
 for (let i = 0; i < productBin.data.length; i++) {
-  total_quantity += productBin.data[i].quantity;
+  if (productBin.data[i].productCode == "FBR00040101") {
+    total_quantity += productBin.data[i].quantity;
+  }
 }
 console.log("Total Quantity = " + total_quantity);
