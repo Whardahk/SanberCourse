@@ -11,3 +11,5 @@ if (angka < 0) {
   var hasil = Math.sqrt(Number(angka));
   console.log("Hasil akar pangkat 2 dari " + angka + " adalah " + hasil);
 }
+
+console.log("No 2");

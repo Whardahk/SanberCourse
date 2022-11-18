@@ -34,3 +34,5 @@ let productBin = {
   ],
   message: "success",
 };
+
+export { productBin };
