@@ -7,4 +7,7 @@ if (angka < 0) {
   console.log("Tidak bisa input bilangan negatif");
 } else if (angka % 2 == 1) {
   console.log("Tidak bisa input bilangan ganjil");
+} else {
+  var hasil = Math.sqrt(Number(angka));
+  console.log("Hasil akar pangkat 2 dari " + angka + " adalah " + hasil);
 }
