@@ -13,3 +13,4 @@ if (angka < 0) {
 }
 
 console.log("No 2");
+import { productBin } from "./dataarray";
