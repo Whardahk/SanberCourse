@@ -12,5 +12,12 @@ if (angka < 0) {
   console.log("Hasil akar pangkat 2 dari " + angka + " adalah " + hasil);
 }
 
+const { productBin } = require("./dataarray");
 console.log("No 2");
-import { productBin } from "./dataarray";
+console.log(productBin);
+
+var total_quantity = 0;
+for (let i = 0; i < productBin.data.length; i++) {
+  total_quantity += productBin.data[i].quantity;
+}
+console.log("Total Quantity = " + total_quantity);

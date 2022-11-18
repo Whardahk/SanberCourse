@@ -6,6 +6,7 @@
   "scripts": {
     "test": "run npm"
   },
+  "type": "commonjs",
   "author": "whardah",
   "license": "ISC",
   "dependencies": {

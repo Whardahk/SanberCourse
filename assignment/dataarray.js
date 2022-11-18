@@ -1,4 +1,4 @@
-let productBin = {
+const productBin = {
   requestId: null,
   data: [
     {
@@ -35,4 +35,4 @@ let productBin = {
   message: "success",
 };
 
-export { productBin };
+module.exports = { productBin };
