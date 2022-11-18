@@ -14,7 +14,7 @@ if (angka < 0) {
 
 const { productBin } = require("./dataarray");
 console.log("No 2");
-console.log(productBin);
+//console.log(productBin);
 
 var total_quantity = 0;
 for (let i = 0; i < productBin.data.length; i++) {
